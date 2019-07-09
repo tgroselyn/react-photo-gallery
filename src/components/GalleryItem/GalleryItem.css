@@ -1,0 +1,35 @@
+.galleryItem {
+    background-color: whitesmoke;
+    border: 2px outset lightgray;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.innerItem, .innerImg {
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+    background-color: #222;
+    color: white;
+    font-size: 1.25em;
+    font-style: italic;
+    overflow: hidden;
+}
+
+.innerText {
+    font-family: 'Gill Sans', 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    box-sizing: border-box;
+    height: 255px;
+    padding: 20px 20px;
+    margin: 0;
+}
+
+.innerDel {
+    background-color: darkred;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
